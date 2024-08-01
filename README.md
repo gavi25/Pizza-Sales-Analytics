@@ -1,7 +1,7 @@
 # Pizza-Sales-Analytics
 
 
-#Project Overview
+<h3>Project Overview</h3>
 
 This project involves analyzing pizza sales data to derive meaningful insights and answer key business questions. The analysis covers various aspects of pizza orders, including total revenue, order distribution, and pizza preferences. The goal is to provide actionable insights that can help in strategic decision-making, such as optimizing the menu and improving marketing strategies.
 
