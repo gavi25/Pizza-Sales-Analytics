@@ -1,5 +1,6 @@
 # Pizza-Sales-Analytics
 
+---
 
 <h3>Project Overview</h3>
 
@@ -13,40 +14,27 @@ In the competitive pizza industry, understanding customer preferences and sales 
 
 - <h5> Basic Analysis </h5>
 
-
-Retrieve the total number of orders placed.
-
-Calculate the total revenue generated from pizza sales.
-
-Identify the highest-priced pizza.
-
-Identify the most common pizza size ordered.
-
-List the top 5 most ordered pizza types along with their quantities.
+    - Retrieve the total number of orders placed.
+    - Calculate the total revenue generated from pizza sales.
+    - Identify the highest-priced pizza.
+    - Identify the most common pizza size ordered.
+    - List the top 5 most ordered pizza types along with their quantities.
 
 
 - <h5>Intermediate Analysis</h5>
 
-
-Join the necessary tables to find the total quantity of each pizza category ordered.
-
-Determine the distribution of orders by hour of the day.
-
-Join relevant tables to find the category-wise distribution of pizzas.
-
-Group the orders by date and calculate the average number of pizzas ordered per day.
-
-Determine the top 3 most ordered pizza types based on revenue.
+    - Join the necessary tables to find the total quantity of each pizza category ordered.
+    - Determine the distribution of orders by hour of the day.
+    - Join relevant tables to find the category-wise distribution of pizzas.
+    - Group the orders by date and calculate the average number of pizzas ordered per day.
+    - Determine the top 3 most ordered pizza types based on revenue.
 
 
 - <h5> Advanced Analysis </h5>
 
-
-Calculate the percentage contribution of each pizza type to total revenue.
-
-Analyze the cumulative revenue generated over time.
-
-Determine the top 3 most ordered pizza types based on revenue for each pizza category.
+    - Calculate the percentage contribution of each pizza type to total revenue.
+    - Analyze the cumulative revenue generated over time.
+    - Determine the top 3 most ordered pizza types based on revenue for each pizza category.
 
 <h3> Data Sources </h3>
 
@@ -54,45 +42,32 @@ The following tables are used for the analysis:
 
 - <h4> order_details </h4>
 
-
-order_details_id: Unique identifier for each order detail record.
-
-order_id: Unique identifier for each order.
-
-pizza_id: Unique identifier for each pizza.
-
-quantity: Quantity of the pizza ordered.
+    - order_details_id: Unique identifier for each order detail record.
+    - order_id: Unique identifier for each order.
+    - pizza_id: Unique identifier for each pizza.
+    - quantity: Quantity of the pizza ordered.
 
 
 - <h4> orders </h4>
 
-date: Date when the order was placed.
-
-order_id: Unique identifier for each order.
-
-time: Time when the order was placed.
+    - date: Date when the order was placed.
+    - order_id: Unique identifier for each order.
+    - time: Time when the order was placed.
 
 
 - <h4> pizzas </h4>
 
-pizza_id: Unique identifier for each pizza.
-
-pizza_type_id: Unique identifier for the type of pizza.
-
-price: Price of the pizza.
-
-size: Size of the pizza.
+    - pizza_id: Unique identifier for each pizza.
+    - pizza_type_id: Unique identifier for the type of pizza.
+    - price: Price of the pizza.
+    - size: Size of the pizza.
 
 - <h4> pizza_type </h4>
 
-pizza_type_id: Unique identifier for the pizza type.
-
-category: Category of the pizza.
-
-ingredients: List of ingredients for the pizza.
-
-name: Name of the pizza.
-
+    - pizza_type_id: Unique identifier for the pizza type.
+    - category: Category of the pizza.
+    - ingredients: List of ingredients for the pizza.
+    - name: Name of the pizza.
 
 
 
@@ -100,27 +75,25 @@ name: Name of the pizza.
 
 - Data Retrieval
 
-Extract data from the above tables using SQL queries.
-
-Ensure data integrity and consistency.
+    - Extract data from the above tables using SQL queries.
+    - Ensure data integrity and consistency.
 
 - Data Analysis
 
-Perform aggregations and calculations to answer the questions.
-
-Use data visualization techniques to present insights clearly.
+    - Perform aggregations and calculations to answer the questions.
+    - Use data visualization techniques to present insights clearly.
 
 - Advanced Analysis
 
-Calculate percentages and cumulative values to understand revenue contributions.
-
-Segment data by pizza categories to provide detailed insights.
+    - Calculate percentages and cumulative values to understand revenue contributions.
+    - Segment data by pizza categories to provide detailed insights.
 
 - Reporting
 
-Compile findings into a comprehensive report with visualizations.
+    - Compile findings into a comprehensive report with visualizations.
+    - Provide recommendations based on the analysis.
 
-Provide recommendations based on the analysis.
+---
 
 <h3> Contributions </h3>
 
