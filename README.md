@@ -1,6 +1,6 @@
 # Pizza-Sales-Analytics
 
-
+![](https://github.com/gavi25/Pizza-Sales-Analytics/blob/main/pizza%20sales.png?raw=true)
 
 <h3>Project Overview</h3>
 
